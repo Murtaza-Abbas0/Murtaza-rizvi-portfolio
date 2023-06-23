@@ -14,8 +14,8 @@ function App() {
       <MainContent />
       <WhoAmI />
       <TechStack />
-      <Projects />
-      <Testimonials />
+      {/* <Projects />
+      <Testimonials /> */}
       <Footer />
     </div>
   );

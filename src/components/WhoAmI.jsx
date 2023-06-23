@@ -26,7 +26,7 @@ const WhoAmI = () => {
           <b className=" font-bold"> Karachi, Pakistan</b> who's experienced in
           taking mobile applications from scratch to production.I'm currently
           working as a<b className=" font-bold"> React Native Developer</b>{" "}
-          at <b className=" font-bold"> Kahoo Digitals</b>
+          at <b className=" font-bold"> Digital Landscape Pvt. Ltd</b>
         </p>
       </div>
     </div>

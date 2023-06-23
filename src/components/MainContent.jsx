@@ -5,7 +5,7 @@ import { AiOutlineArrowDown } from "react-icons/ai";
 
 const MainContent = () => {
   const words = [
-    "React Native Developer",
+    "Mobile Application Developer",
   ];
 
   return (

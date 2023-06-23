@@ -16,7 +16,7 @@ const TechStack = () => {
       id: 2,
       image: ReactJS,
       alt: "React-logo",
-      name: "React",
+      name: "React Native",
     },
     {
       id: 3,
