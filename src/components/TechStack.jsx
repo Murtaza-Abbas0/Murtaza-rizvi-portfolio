@@ -1,0 +1,58 @@
+import React from "react";
+import Javascript from "../assets/Images/javascript.png";
+import ReactJS from "../assets/Images/react.png";
+import Firebase from "../assets/Images/Firebase.png"
+
+
+const TechStack = () => {
+  const techData = [
+    {
+      id: 1,
+      image: Javascript,
+      alt: "javascript-logo",
+      name: "Javascript",
+    },
+    {
+      id: 2,
+      image: ReactJS,
+      alt: "React-logo",
+      name: "React",
+    },
+    {
+      id: 3,
+      image: Firebase,
+      alt: "Firebase-logo",
+      name: "Firebase",
+    },
+
+  ];
+
+  return (
+    <div id="technologies" className=" pt-20 w-full text-[#141a46] p-5">
+      <h1 className=" text-center my-6 font-fredoka font-bold text-4xl">
+        My Tech Stack
+      </h1>
+      <div className=" flex flex-wrap justify-center gap-4 p-5  mx-auto">
+        {techData.map((data) => (
+          <div
+            key={data.id}
+            className="w-full sm:w-80 lg:w-96 p-3 flex flex-col items-center"
+          >
+            <img
+              src={data.image}
+              alt={data.alt}
+              className=" object-contain h-32 "
+              height={200}
+              width={200}
+            />
+            <h1 className=" my-3 text-3xl font-fredoka font-medium ">
+              {data.name}
+            </h1>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default TechStack;
