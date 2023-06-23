@@ -1,6 +1,6 @@
 import React from "react";
 
-import HeroImage from "../assets/Images/Abdul Khaliq.jpg";
+import HeroImage from "../assets/Images/Murtaza-Rizvi.jpeg";
 
 const WhoAmI = () => {
   return (

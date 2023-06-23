@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/Images/Abdul Khaliq.jpg";
+import HeroImage from "../assets/Images/Murtaza-Rizvi.jpeg";
 import { Typewriter } from "react-simple-typewriter";
 import { AiOutlineArrowDown } from "react-icons/ai";
 
