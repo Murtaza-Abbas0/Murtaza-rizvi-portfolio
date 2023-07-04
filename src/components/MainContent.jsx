@@ -18,7 +18,7 @@ const MainContent = () => {
           <img
             src={HeroImage}
             alt="hero-image"
-            className=" object-contain rounded-full mx-auto "
+            className=" object-contain rounded-full mx-auto"
             height={500}
             width={500}
           />
