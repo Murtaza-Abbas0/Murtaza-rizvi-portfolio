@@ -2,6 +2,7 @@ import React from "react";
 import Javascript from "../assets/Images/javascript.png";
 import ReactJS from "../assets/Images/react.png";
 import Firebase from "../assets/Images/Firebase.png"
+import Typescript from "../assets/Images/typescript.png"
 
 
 const TechStack = () => {
@@ -24,6 +25,12 @@ const TechStack = () => {
       alt: "Firebase-logo",
       name: "Firebase",
     },
+    {
+      id: 4,
+      image: Typescript,
+      alt: "Typescript-logo",
+      name: "Typescript",
+    },
 
   ];
 
@@ -41,7 +48,7 @@ const TechStack = () => {
             <img
               src={data.image}
               alt={data.alt}
-              className=" object-contain h-32 "
+              className=" bg-blend-multiply object-contain h-32 "
               height={200}
               width={200}
             />

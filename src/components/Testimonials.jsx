@@ -3,6 +3,7 @@ import OwaisAhmed from "../assets/Images/Testimonials/OwaisAhmed.jpeg";
 import Daniyal from "../assets/Images/Testimonials/Daniyal.jpeg";
 import Huzaifa from "../assets/Images/Testimonials/Huzaifa.jpeg";
 import DanishAmir from "../assets/Images/Testimonials/DanishAmir.jpeg";
+import AbdulKhaliq from "../assets/Images/Testimonials/AbdulKhaliq.jpg";
 
 const Testimonials = () => {
   const [clicked, setClicked] = useState(true);
@@ -11,12 +12,12 @@ const Testimonials = () => {
   const testimonialData = [
     {
       id: 1,
-      image: Huzaifa,
+      image: AbdulKhaliq,
       alt: "testimonial ",
-      name: "Huzaifa Ali",
-      designation: "Backend Engineer @ VativeApps",
+      name: "Abdul Khaaliq",
+      designation: "Full Stack Engineer @ Kahoo Digitals",
       comment:
-        "Murtaza Rizvi is passionate about his career. He have great programming skills and he is really an expert of backend and have done dozens of projects. He is so kind and always ready to help the person in need.",
+        "Murtaza Rizvi is passionate about his career. He have great programming skills and he is really an expert of mobile applications and have done dozens of projects. He is so kind and always ready to help the person in need.",
     },
     {
       id: 2,
@@ -41,9 +42,9 @@ const Testimonials = () => {
       image: Daniyal,
       alt: "testimonial ",
       name: "Daniyal",
-      designation: "Front End Developer @ KahooDigitals",
+      designation: "Senior Front End Developer @ KahooDigitals",
       comment:
-        "Murtaza Rizvi is our amazing Full Stack Developer at KahooDigitals. His contributions to the business are countless.",
+        "Murtaza Rizvi is our amazing React native developer at KahooDigitals. His contributions to the business are countless.",
     },
   ];
 

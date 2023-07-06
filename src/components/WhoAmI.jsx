@@ -22,11 +22,10 @@ const WhoAmI = () => {
           Who am I?
         </h1>
         <p className=" font-light sm:text-start text-lg sm:text-xl md:text-2xl my-2">
-          Hello! I'm Murtaza Rizvi, a Software Engineer based in
-          <b className=" font-bold"> Karachi, Pakistan</b> who's experienced in
-          taking mobile applications from scratch to production.I'm currently
-          working as a<b className=" font-bold"> React Native Developer</b>{" "}
-          at <b className=" font-bold"> Digital Landscape Pvt. Ltd</b>
+          Hey! This is Murtaza Rizvi, a aspiring Software Engineer based in
+          <b className=" font-bold"> Karachi, Pakistan</b> who enjoys connecting the dots: be it ideas from different disciplines, people from different teams, or applications from different industries. I have strong technical skills and an academic background in engineering.
+          My passion lies in solving business problems with tailored data and algorithms and communicating complex ideas to non-technical stakeholders. I'm currently working as a<b className=" font-bold"> React Native Developer</b>{" "}
+          at <b className=" font-bold"> Kahoo Digitals</b>
         </p>
       </div>
     </div>
