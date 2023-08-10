@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import ExerciseTracker from "../assets/Images/Projects/exerciseApp.png";
+import ExerciseTracker from "../assets/Images/Projects/SmartSnD.png";
 
 const Projects = () => {
   const [addDiv, setAddDiv] = useState(false);

@@ -3,7 +3,7 @@ import OwaisAhmed from "../assets/Images/Testimonials/OwaisAhmed.jpeg";
 import Daniyal from "../assets/Images/Testimonials/Daniyal.jpeg";
 import Huzaifa from "../assets/Images/Testimonials/Huzaifa.jpeg";
 import DanishAmir from "../assets/Images/Testimonials/DanishAmir.jpeg";
-import AbdulKhaliq from "../assets/Images/Testimonials/AbdulKhaliq.jpg";
+import Zaid from "../assets/Images/Testimonials/Zaid.jpg";
 
 const Testimonials = () => {
   const [clicked, setClicked] = useState(true);
@@ -12,19 +12,23 @@ const Testimonials = () => {
   const testimonialData = [
     {
       id: 1,
-      image: AbdulKhaliq,
+      image: Zaid,
       alt: "testimonial ",
-      name: "Abdul Khaaliq",
-      designation: "Full Stack Engineer @ Kahoo Digitals",
+      name: "Zaid Farooqui",
+      designation: "Full Stack Engineer @ Aciano Technologies",
       comment:
-        "Murtaza Rizvi is passionate about his career. He have great programming skills and he is really an expert of mobile applications and have done dozens of projects. He is so kind and always ready to help the person in need.",
+        `I wanted to commend you for your exceptional work as a React Native Developer. Your commitment to learning, proactive problem-solving, and attention to detail have made a significant impact on our team. You possess a strong work ethic, collaborate effectively, and consistently deliver high-quality, maintainable code. Your future as a React Native developer looks incredibly promising.
+
+        Keep up the excellent work!
+        
+        Best regards,`,
     },
     {
       id: 2,
       image: DanishAmir,
       alt: "testimonial ",
-      name: "Danish Amir",
-      designation: "Senior UI/UX Designer @ KahooDigitals",
+      name: "Alina Jabeen",
+      designation: "Senior Software Engineer @ Contour Software",
       comment:
         "There is no better colleague than Murtaza Rizvi. He is one of the most dedicated professionals I’ve worked with and is willing to give extra help whenever you need it. His expertise as a developer is considerable and appreciatable. I highly adore his positive attitude and confidence.",
     },
