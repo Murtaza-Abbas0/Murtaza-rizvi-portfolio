@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import OwaisAhmed from "../assets/Images/Testimonials/OwaisAhmed.jpeg";
 import Daniyal from "../assets/Images/Testimonials/Daniyal.jpeg";
-import Huzaifa from "../assets/Images/Testimonials/Huzaifa.jpeg";
-import DanishAmir from "../assets/Images/Testimonials/DanishAmir.jpeg";
+import Female_Placeholder from "../assets/Images/Testimonials/Female_Placeholder.png";
 import Zaid from "../assets/Images/Testimonials/Zaid.jpg";
 
 const Testimonials = () => {
@@ -15,7 +14,7 @@ const Testimonials = () => {
       image: Zaid,
       alt: "testimonial ",
       name: "Zaid Farooqui",
-      designation: "Full Stack Engineer @ Aciano Technologies",
+      designation: "Senior Full Stack Engineer @ Aciano Technologies",
       comment:
         `I wanted to commend you for your exceptional work as a React Native Developer. Your commitment to learning, proactive problem-solving, and attention to detail have made a significant impact on our team. You possess a strong work ethic, collaborate effectively, and consistently deliver high-quality, maintainable code. Your future as a React Native developer looks incredibly promising.
 
@@ -25,21 +24,21 @@ const Testimonials = () => {
     },
     {
       id: 2,
-      image: DanishAmir,
+      image: Female_Placeholder,
       alt: "testimonial ",
       name: "Alina Jabeen",
-      designation: "Senior Software Engineer @ Contour Software",
+      designation: "Senior Software Engineer (.NET Core) @ Contour Software",
       comment:
-        "There is no better colleague than Murtaza Rizvi. He is one of the most dedicated professionals I’ve worked with and is willing to give extra help whenever you need it. His expertise as a developer is considerable and appreciatable. I highly adore his positive attitude and confidence.",
+        `I had the privilege of collaborating with Murtaza Rizvi on a project. Their expertise in integrating backend and React Native was invaluable. Their clear communication, clean coding, and proactive problem-solving greatly contributed to our success. I highly recommend them to anyone in need of a proficient React Native developer.`,
     },
     {
       id: 3,
-      image: OwaisAhmed,
+      image: Female_Placeholder,
       alt: "testimonial ",
-      name: "Owais Ahmed",
-      designation: "Node JS Developer @ Tafsol",
+      name: "Zara Rasheed",
+      designation: "Software Quality Assurance Engineer @ Digital Landscape",
       comment:
-        "Every plane needs a pilot, and I’m grateful you are ours. It’s amazing to see you manage a bazillion things in a short time. And you do it so efficiently.",
+        `Having worked alongside Murtaza Rizvi in the past, I can attest to their exceptional React Native development skills. Their ability to harmoniously integrate backend functionalities with React Native was truly impressive. Throughout our collaboration, their dedication to delivering clean code, coupled with their proactive approach to addressing challenges, greatly contributed to our project's success. As a QA professional, I confidently recommend Murtaza Rizvi to those seeking a proficient and reliable React Native developer.`,
     },
     {
       id: 4,
@@ -48,7 +47,7 @@ const Testimonials = () => {
       name: "Daniyal",
       designation: "Senior Front End Developer @ KahooDigitals",
       comment:
-        "Murtaza Rizvi is our amazing React native developer at KahooDigitals. His contributions to the business are countless.",
+        `Reflecting on our shared experiences at Kahoo Digitals, I'm compelled to acknowledge Murtaza Rizvi for their exceptional contributions. As a senior front-end developer, I've had the pleasure of witnessing their adeptness in React Native development, seamlessly synchronized with backend intricacies. Their commitment to maintaining a high standard of code quality and their proactive approach to problem-solving have been crucial in driving our projects forward. It's with great enthusiasm that I endorse Murtaza Rizvi to those in search of a proficient and collaborative React Native developer.`,
     },
   ];
 
@@ -66,11 +65,10 @@ const Testimonials = () => {
                   setClicked(true);
                   setClickedId(data.id);
                 }}
-                className={` absolute top-0 left-0 h-full w-full bg-transparent rounded-full p-1 ${
-                  clicked && clickedId === data.id
+                className={` absolute top-0 left-0 h-full w-full bg-transparent rounded-full p-1 ${clicked && clickedId === data.id
                     ? ` border-2 border-dashed border-[#141a46] animate-spin duration-700`
                     : ` border-2 border-dashed border-transparent`
-                }`}
+                  }`}
               ></div>
               <img
                 src={data.image}
