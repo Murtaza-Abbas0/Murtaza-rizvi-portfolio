@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 
-import ExerciseTracker from "../assets/Images/Projects/SmartSnD.png";
+import SmartSnD from "../assets/Images/Projects/SmartSnD.png";
+import IMOKCooking from "../assets/Images/Projects/IMOKCooking.jpg";
+import UltraFitness from "../assets/Images/Projects/UltraFitness.png";
 
 const Projects = () => {
   const [addDiv, setAddDiv] = useState(false);
@@ -9,22 +11,22 @@ const Projects = () => {
   const projectsData = [
     {
       id: 1,
-      image: ExerciseTracker,
-      name: "Exercise Tracker App",
+      image: SmartSnD,
+      name: "Smart SnD",
       link: "https://github.com/Murtaza-Abbas0/SmartSndPublic.git",
     },
-    // {
-    //   id: 2,
-    //   image: ExerciseTracker,
-    //   name: "Exercise Tracker App",
-    //   link: "https://exercise-tracker-aq.netlify.app/",
-    // },
-    // {
-    //   id: 3,
-    //   image: ExerciseTracker,
-    //   name: "Exercise Tracker App",
-    //   link: "https://exercise-tracker-aq.netlify.app/",
-    // },
+    {
+      id: 2,
+      image: IMOKCooking,
+      name: "IMOK Cooking",
+      link: "https://play.google.com/store/apps/details?id=com.imokcooking",
+    },
+    {
+      id: 3,
+      image: UltraFitness,
+      name: "Ultra SV Fitness",
+      link: "https://play.google.com/store/apps/details?id=com.ultrafitness",
+    },
     // {
     //   id: 4,
     //   image: ExerciseTracker,

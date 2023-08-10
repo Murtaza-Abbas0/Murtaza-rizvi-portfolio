@@ -14,7 +14,7 @@ function App() {
       <MainContent />
       <WhoAmI />
       <TechStack />
-      {/* <Projects /> */}
+      <Projects />
       <Testimonials />
       <Footer />
     </div>
