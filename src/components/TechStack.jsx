@@ -1,37 +1,55 @@
-import React from "react";
 import Javascript from "../assets/Images/javascript.png";
 import ReactJS from "../assets/Images/react.png";
-import Firebase from "../assets/Images/Firebase.png"
-import Typescript from "../assets/Images/typescript.png"
-
+import Firebase from "../assets/Images/Firebase.png";
+import Git from "../assets/Images/git.png";
+import Redux from "../assets/Images/redux.png";
+import Jest from "../assets/Images/jest.png";
+import Typescript from "../assets/Images/typescript.png";
 
 const TechStack = () => {
   const techData = [
     {
       id: 1,
       image: Javascript,
-      alt: "javascript-logo",
-      name: "Javascript",
+      alt: "Javascript-logo",
+      name: "Javascript"
     },
     {
       id: 2,
-      image: ReactJS,
-      alt: "React-logo",
-      name: "React Native",
+      image: Typescript,
+      alt: "Typescript-logo",
+      name: "Typescript"
     },
     {
       id: 3,
-      image: Firebase,
-      alt: "Firebase-logo",
-      name: "Firebase",
+      image: ReactJS,
+      alt: "React-logo",
+      name: "React (Native/JS)"
     },
     {
       id: 4,
-      image: Typescript,
-      alt: "Typescript-logo",
-      name: "Typescript",
+      image: Redux,
+      alt: "Redux-logo",
+      name: "Redux"
     },
-
+    {
+      id: 5,
+      image: Jest,
+      alt: "Jest-logo",
+      name: "Jest"
+    },
+    {
+      id: 6,
+      image: Firebase,
+      alt: "Firebase-logo",
+      name: "Firebase"
+    },
+    {
+      id: 7,
+      image: Git,
+      alt: "Git-logo",
+      name: "Git"
+    }
   ];
 
   return (

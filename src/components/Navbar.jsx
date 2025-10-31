@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Title from "./Atoms/Title";
 import HamburgerIcon from "./Atoms/HamburgerIcon";
 import HamburgerMenu from "./Atoms/HamburgerMenu";

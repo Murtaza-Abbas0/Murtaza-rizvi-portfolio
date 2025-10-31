@@ -1,4 +1,3 @@
-import React from "react";
 import Title from "./Atoms/Title";
 import { FaGithub, FaLinkedin, FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -13,12 +12,17 @@ const Footer = () => {
       <div className=" flex flex-col gap-4">
         <Title />
         <div className=" flex gap-4">
-          <a href="https://github.com/Murtaza-Abbas0" target="_blank">
+          <a
+            href="https://github.com/Murtaza-Abbas0"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaGithub size={24} />
           </a>
           <a
             href="https://www.linkedin.com/in/murtaza-rizvi-130695210/"
             target="_blank"
+            rel="noreferrer"
           >
             <FaLinkedin size={24} />
           </a>

@@ -1,5 +1,4 @@
-import React from "react";
-
+// eslint-disable-next-line react/prop-types
 const HamburgerMenu = ({ clicked, setClicked }) => {
   const handleClick = () => setClicked(false);
   return (
@@ -21,9 +20,9 @@ const HamburgerMenu = ({ clicked, setClicked }) => {
         <a href="#projects" onClick={handleClick}>
           Projects
         </a>
-        <a href="#testimonials" onClick={handleClick}>
+        {/* <a href="#testimonials" onClick={handleClick}>
           Testimonials
-        </a>
+        </a> */}
         <a href="#contact" onClick={handleClick}>
           Contact
         </a>

@@ -1,12 +1,10 @@
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
 import HeroImage from "../assets/Images/Murtaza-Rizvi.jpeg";
 import { Typewriter } from "react-simple-typewriter";
 import { AiOutlineArrowDown } from "react-icons/ai";
 
 const MainContent = () => {
-  const words = [
-    "Mobile Application Developer",
-  ];
+  const words = ["Software Engineer"];
 
   return (
     <div

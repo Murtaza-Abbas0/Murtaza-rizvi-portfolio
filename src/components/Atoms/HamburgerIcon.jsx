@@ -1,5 +1,4 @@
-import React from "react";
-
+/* eslint-disable react/prop-types */
 const HamburgerIcon = ({ clicked, setClicked }) => {
   const genericHamburgerLine = `h-1 w-10 my-1 rounded-full bg-[#141a46] transition ease transform duration-700`;
 
