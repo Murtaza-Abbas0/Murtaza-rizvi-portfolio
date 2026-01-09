@@ -4,7 +4,7 @@ import { Typewriter } from "react-simple-typewriter";
 import { AiOutlineArrowDown } from "react-icons/ai";
 
 const MainContent = () => {
-  const words = ["Software Engineer"];
+  const words = ["Software Engineer", "React/React Native Developer", "Node JS Developer", ];
 
   return (
     <div
