@@ -5,6 +5,11 @@ import Git from "../assets/Images/git.png";
 import Redux from "../assets/Images/redux.png";
 import Jest from "../assets/Images/jest.png";
 import Typescript from "../assets/Images/typescript.png";
+import NodeJS from "../assets/Images/nodejs.png";
+import MongoDb from "../assets/Images/mongodb.png";
+import ExpressJS from "../assets/Images/Expressjs.png";
+import NextJS from "../assets/Images/nextjs.png";
+
 
 const TechStack = () => {
   const techData = [
@@ -28,24 +33,49 @@ const TechStack = () => {
     },
     {
       id: 4,
-      image: Redux,
-      alt: "Redux-logo",
-      name: "Redux"
+      image: NextJS,
+      alt: "next-js-logo",
+      name: "Next.js"
     },
     {
       id: 5,
-      image: Jest,
-      alt: "Jest-logo",
-      name: "Jest"
+      image: NodeJS,
+      alt: "node-js-logo",
+      name: "Node.js"
     },
     {
       id: 6,
+      image: ExpressJS,
+      alt: "express-js-logo",
+      name: "Express.js"
+    },
+
+    {
+      id: 7,
+      image: MongoDb,
+      alt: "mongo-db-logo",
+      name: "MongoDB"
+    },
+    {
+      id: 8,
       image: Firebase,
       alt: "Firebase-logo",
       name: "Firebase"
     },
     {
-      id: 7,
+      id: 9,
+      image: Redux,
+      alt: "Redux-logo",
+      name: "Redux"
+    },
+    {
+      id: 10,
+      image: Jest,
+      alt: "Jest-logo",
+      name: "Jest"
+    },
+    {
+      id: 11,
       image: Git,
       alt: "Git-logo",
       name: "Git"
